@@ -21,8 +21,8 @@ Docker file is created inside project folder which is used to create Docker imag
 ## Create and Run Image in Docker Container:
 
 ### Craete image in docker with following command
-docker build -f Dockerfile -t jarName
+```docker build -f Dockerfile -t jarName```
 
 ### Run docker image using
-docker run -p 8080:8080 jarName
+```docker run -p 8080:8080 jarName```
 
