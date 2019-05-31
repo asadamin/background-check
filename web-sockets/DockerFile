@@ -1,0 +1,4 @@
+From java:8
+EXPOSE 8080
+ADD /target/web-sockets-0.0.1-SNAPSHOT.jar web-sockets-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "web-sockets-0.0.1-SNAPSHOT.jar"]
